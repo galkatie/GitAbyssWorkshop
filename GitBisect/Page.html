@@ -6,12 +6,18 @@
         .grid-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
+            grid-template-rows: 1fr auto; /* Added 'auto' for the footer */
             gap: 10px;
         }
         .grid-item {
             background-color: #f2f2f2;
             padding: 20px;
+            text-align: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
             text-align: center;
         }
     </style>
@@ -22,6 +28,7 @@
         <div class="grid-item">Section 2</div>
         <div class="grid-item">Section 3</div>
         <div class="grid-item">Section 4</div>
+        <div class="footer">This is the footer</div> <!-- Added footer section -->
     </div>
 </body>
 </html>
