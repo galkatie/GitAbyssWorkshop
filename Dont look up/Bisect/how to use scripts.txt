@@ -1,0 +1,22 @@
+# Answer: 4cfa3b0dc2ac504ced53a3d1c8b7b5f91f0098fb 
+
+# overall rule
+git bisect start
+git bisect bad  # Mark the current commit as bad if it has the bug
+git bisect good 2257b4e37d8208f847a27dc95695964a65353648  # Mark a known good commit
+
+git bisect run [script]
+
+git bisect reset # End of search, return to actual code
+
+# javascript file example
+
+git bisect run node bisect_typo.js
+
+# powershell
+
+git bisect run powershell -File "bisect_typo.ps1"
+
+# shell
+
+git bisect run ./bisect_typo.sh
