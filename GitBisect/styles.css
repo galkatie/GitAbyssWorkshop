@@ -1,0 +1,47 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.section1 {
+  background-color: red;
+}
+
+.selected {
+  border: 2px solid blue;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.header img {
+  margin-right: 10px;
+  height: 40px;
+}
+
+.title{
+    text-align: center;
+    vertical-align: super;
+    font-size: 20px;
+}
