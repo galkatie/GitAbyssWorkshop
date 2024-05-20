@@ -9,5 +9,3 @@ if ($htmlContent -like "*$specificValue*") {
 } else {
     exit 0
 }
-
-# dodać też js script
