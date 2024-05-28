@@ -1,0 +1,21 @@
+#!/bin/sh
+
+branch_name=$(git symbolic-ref --short HEAD)
+COMMIT_MSG_FILE="$1"
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
+# Regex pattern to match word characters followed by a hyphen and digits
+pattern='[a-zA-Z_]\{1,\}-[0-9]\{1,\}'
+
+# Use grep to search for the pattern and extract it
+
+taskNo=$(echo $branch_name | grep -oE "[a-zA-Z]{1,}-[0-9]{1,}")
+
+
+if [ -n "$taskNo" ]; then
+  echo "[$taskNo] $(cat $COMMIT_MSG_FILE)" > $COMMIT_MSG_FILE
+  else
+  read test
+    echo "Test, $test"
+    echo "No ticket number found in format [XXX-DDDDD] in branch: $branch_name"
+    exit 1
+fi
