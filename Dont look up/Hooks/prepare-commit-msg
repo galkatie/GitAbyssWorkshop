@@ -14,8 +14,6 @@ taskNo=$(echo $branch_name | grep -oE "[a-zA-Z]{1,}-[0-9]{1,}")
 if [ -n "$taskNo" ]; then
   echo "[$taskNo] $(cat $COMMIT_MSG_FILE)" > $COMMIT_MSG_FILE
   else
-  read test
-    echo "Test, $test"
     echo "No ticket number found in format [XXX-DDDDD] in branch: $branch_name"
     exit 1
 fi
