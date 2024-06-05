@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Get the name of the current branch
+BRANCH_NAME=$(git symbolic-ref --short HEAD)
+
+# Prevent commits to master branch
+if [ "$BRANCH_NAME" = "master" ] || [ "$BRANCH_NAME" = "main" ]; then
+  echo "Commits to the master branch are not allowed. Please switch to another branch."
+  exit 1
+fi
