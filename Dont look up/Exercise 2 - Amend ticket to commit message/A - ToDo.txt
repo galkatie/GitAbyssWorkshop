@@ -1,0 +1,7 @@
+Amend ticket to commit message
+
+- Ticket number format is 4 letters followed by hypen and 5 digits, eg.: QWER-12345
+- Expect, that branch name starts from ticket number
+- Prevent commiting, when you cannot extract ticket number from branch name
+- Ticket number should be added at very beginnig of commit message inside square brackets:
+  [QWER-12345] Initial commit message
