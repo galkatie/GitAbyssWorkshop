@@ -1,0 +1,16 @@
+To get branch name use:
+    git symbolic-ref --short HEAD
+
+
+If structure:
+
+    if <condtions>; then
+        <condition met block>
+    # optional
+        else
+        <condition not met block>
+    # end optional
+    fi
+
+
+To comapre two string use single equality sign "="

@@ -1,0 +1,11 @@
+Prevents commits to main or master
+
+1. Create empty file commit-msg 
+2. Read branch name to variable. 
+3. Extract ticket number from branch name.
+4. If extraction failed, print info to console and exit 1
+5. Get localization of commit message file from first parameter. Variable "$1"
+6. Read content of msg file
+7. Concat commit message to ticket number inside brackets
+8. Save message to file from path $1
+9. Move it to .git/hooks

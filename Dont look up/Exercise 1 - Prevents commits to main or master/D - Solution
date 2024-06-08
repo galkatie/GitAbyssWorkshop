@@ -1,4 +1,5 @@
 #!/bin/sh
+# Name as pre-commit
 
 # Get the name of the current branch
 BRANCH_NAME=$(git symbolic-ref --short HEAD)
