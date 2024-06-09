@@ -10,7 +10,7 @@ echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
 
 echo "git status"
 git status
-#read -n 1 -s
+read -n 1 -s
 
 ./echo "Entering the submodule directory."
 echo "cd plugins/partner"

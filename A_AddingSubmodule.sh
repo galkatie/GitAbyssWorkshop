@@ -12,7 +12,7 @@ read -n 1 -s
 
 echo "git status"
 git status
-./echo "tput bold What has changed? What is the status of the submodule?"
+./echo "What has changed? What is the status of the submodule?"
 
 read -n 1 -s
 
