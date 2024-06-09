@@ -5,7 +5,7 @@ if [ "$(basename $(pwd))" != "me" ]; then
 fi
 
 echo "Fixing the bug"
-echo ".$(cat pugins/partner/remote.css)" > pugins/partner/remote.css
+echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
 git status --ignore-submodules=none
 read -n 1 -s
 
