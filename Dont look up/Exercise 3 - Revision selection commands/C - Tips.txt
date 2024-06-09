@@ -1,0 +1,15 @@
+To change branch use:
+    git checkout workshop-test-cases
+	
+To display tree use:
+	git log --oneline --decorate --graph
+
+To go to parents in commit merges use:
+	commit^ or commit^2
+	
+To go to previous commits (not merges) use:
+	commit~n 
+	where n is number of commits back
+	
+You can combine above:
+	commit~5^~3

@@ -1,0 +1,26 @@
+To introduce color use:
+	%C(color_name_or_hash)
+	
+To introduce font style:
+	%C(font-decoration)
+
+Above can be mixed, the order doesn't matter:
+	%C(red bold)
+	
+%h - short hash
+%as - author's commit short date
+%ae - author email
+%s - subject
+
+available predefined colors: normal, black, red, green, yellow, blue, magenta, cyan, white, default
+
+The color `normal` makes no change to the color. It is the same as an empty string, but can be used as the foreground color when specifying a background color alone (for example, "normal red").
+
+The color `default` explicitly resets the color to the terminal default, for example to specify a cleared background. Although it varies between terminals.
+
+available formats: bold, dim, ul, blink, reverse, italic, and strike
+
+Specific attributes may be turned off by prefixing them with no or no- (e.g., noreverse, no-ul, etc).
+
+The pseudo-attribute `reset` resets all colors and attributes before applying the specified coloring. For example, `reset green` will result in a green foreground and default background without any active attributes.
+

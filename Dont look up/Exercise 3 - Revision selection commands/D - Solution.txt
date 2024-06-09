@@ -1,0 +1,5 @@
+git checkout workshop-test-cases
+
+git log --oneline --decorate --graph
+
+git show HEAD^2^2~3 --oneline --no-patch

@@ -3,7 +3,7 @@
 # overall rule
 git bisect start
 git bisect bad  # Mark the current commit as bad if it has the bug
-git bisect good 2257b4e37d8208f847a27dc95695964a65353648  # Mark a known good commit
+git bisect good first-commit  # Mark a known good commit
 
 git bisect run [script]
 

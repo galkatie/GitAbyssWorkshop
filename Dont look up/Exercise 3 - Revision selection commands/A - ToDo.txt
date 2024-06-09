@@ -1,0 +1,3 @@
+Checkout to branch ‘workshop-test-cases’. 
+
+Starting from HEAD and using only revision selection commands find commit named ‘Page file rename’ and display it

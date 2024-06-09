@@ -1,0 +1,6 @@
+Display information about chosen range of commits.
+Format details 
+	short commit hash - in chosen color
+	date without hour - in chosen color in italic
+	author name - bold in chosen color
+	subject - no special formatting

@@ -1,0 +1,14 @@
+Manual bisecting
+ 
+1. Start bisecting
+2. Mark current commit as bad
+3. Mark choosen good commit as good
+4. Follow the instructions
+
+
+Automatic bisecting:
+
+1. Start bisecting
+2. Mark current commit as bad
+3. Mark choosen good commit as good
+4. Run script and wait for results xD
