@@ -1,3 +1,9 @@
 Checkout to branch ‘workshop-test-cases’. 
 
 Starting from HEAD and using only revision selection commands find commit named ‘Page file rename’ and display it
+
+Format details 
+	short commit hash - in chosen color
+	date without hour - in chosen color in italic
+	author email - bold in chosen color
+	subject - no special formatting

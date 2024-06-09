@@ -1,3 +1,0 @@
-git log first-commit..ba60590 --format="%C(brightred)%h %C(italic blue)%as %C(reset magenta bold)%ae%Creset %s"
-
-git show first-commit..ba60590 --format="%C(brightred)%h %C(italic blue)%as %C(reset magenta bold)%ae%Creset %s" --no-patch

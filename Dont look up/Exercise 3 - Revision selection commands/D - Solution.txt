@@ -2,4 +2,4 @@ git checkout workshop-test-cases
 
 git log --oneline --decorate --graph
 
-git show HEAD^2^2~3 --oneline --no-patch
+git show HEAD^2^2~3 --format="%C(brightred)%h %C(italic blue)%as %C(reset magenta bold)%ae%Creset %s" --no-patch
