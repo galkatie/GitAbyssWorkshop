@@ -21,4 +21,4 @@ echo "cd plugins/partner"
 cd plugins/partner
 echo "git status"
 git status
-./echo "Checking the status of the submodule. Do you see something different?"
+../../echo "Checking the status of the submodule. Do you see something different?"

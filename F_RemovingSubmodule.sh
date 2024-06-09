@@ -8,11 +8,11 @@ echo "git pull"
 git pull
 ./echo "Getting the removal. What is status of repo?"
 
-#read -n 1 -s
+read -n 1 -s
 echo "git status"
 git status
 
-#read -n 1 -s
+read -n 1 -s
 
 ./echo "Removing the unnecesary files."
 echo "rm -rf  plugins/partner"

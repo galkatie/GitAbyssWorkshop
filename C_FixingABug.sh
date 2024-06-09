@@ -5,7 +5,7 @@ if [ "$(basename $(pwd))" != "me" ]; then
 fi
 
 ./echo "Fixing the bug"
-echo "echo \"\$(cat plugins/partner/remote.css)\" > plugins/partner/remote.css" > plugins/partner/remote.css
+echo "echo \"\$(cat plugins/partner/remote.css)\" > plugins/partner/remote.css"
 echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
 
 echo "git status"
