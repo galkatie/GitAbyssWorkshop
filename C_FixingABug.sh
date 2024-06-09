@@ -20,12 +20,11 @@ git status
 
 read -n 1 -s
 
-./echo "Committing the fix in submodule."
+../../echo "Committing the fix in submodule."
 echo "git add -A\ngit commit -m \"Fixing the bug in submodule\"\ngit push"
 git add -A
 git commit -m "Fixing the bug in submodule"
 git push
-
 
 read -n 1 -s
 
