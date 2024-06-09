@@ -1,6 +1,5 @@
 #!/bin/sh
-
-if ["basename $(pwd)" != "coworker"]; then
+if [ "$(basename $(pwd))" != "coworker" ]; then
     echo "This script must be run from the coworker directory."
     exit 1
 fi

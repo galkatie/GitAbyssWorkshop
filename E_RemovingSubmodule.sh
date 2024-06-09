@@ -1,5 +1,5 @@
 #!/bin/sh
-if ["basename $(pwd)" != "me"]; then
+if [ "$(basename $(pwd))" != "me" ]; then
     echo "This script must be run from the me directory."
     exit 1
 fi
