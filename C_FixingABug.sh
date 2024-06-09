@@ -1,18 +1,21 @@
 #!/bin/sh
 if [ "$(basename $(pwd))" != "me" ]; then
-    echo "This script must be run from the me directory."
+    ./echo "This script must be run from the me directory."
     exit 1
 fi
 
-echo "Fixing the bug"
-echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
+./echo "Fixing the bug"
+./echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
 git status
-read -n 1 -s
+#read -n 1 -s
 
-echo "Entering the submodule directory."
+./echo "Entering the submodule directory."
 cd plugins/partner
+git ststus
 
-echo "Committing the fix."
+#read -n 1 -s
+
+./echo "Committing the fix."
 git commit -am "Fixed the bug"
 git push
 
