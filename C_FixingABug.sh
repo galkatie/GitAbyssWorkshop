@@ -6,11 +6,11 @@ fi
 
 echo "Fixing the bug"
 echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
-git status --ignore-submodules=none
+git status
 read -n 1 -s
 
 echo "Entering the submodule directory."
-cd pugins/partner
+cd plugins/partner
 
 echo "Committing the fix."
 git commit -am "Fixed the bug"
