@@ -15,7 +15,15 @@ git status
 
 #read -n 1 -s
 
-./echo "Committing the fix."
+./echo "Committing the fix in submodule."
+git commit -am "Fixed the bug"
+git push
+
+
+#read -n 1 -s
+
+./echo "Committing the fix in main."
+cd ../..
 git commit -am "Fixed the bug"
 git push
 
