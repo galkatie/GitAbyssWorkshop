@@ -7,3 +7,5 @@ Format details
 	date without hour - in chosen color in italic
 	author email - bold in chosen color
 	subject - no special formatting
+
+Diff format – full statistics

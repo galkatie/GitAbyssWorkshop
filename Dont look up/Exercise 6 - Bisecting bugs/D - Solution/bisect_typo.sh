@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Specify the file path and the value to search for
 file_path="../../GitBisect/Page.html"
 search_value="Secction"
 

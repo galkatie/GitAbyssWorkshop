@@ -1,4 +1,2 @@
-Which commit caused that section 1 changed color to red?
-
 Which commit introduced typo in Section 4?
 Write a script to test it and try to use it with bisect.

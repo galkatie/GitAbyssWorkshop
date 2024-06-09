@@ -27,3 +27,5 @@ available predefined colors: normal, black, red, green, yellow, blue, magenta, c
 available predefined decorations: bold, dim, ul, blink, reverse, italic, and strike
 
 The pseudo-attribute `reset` resets all colors and attributes before applying the specified coloring.
+
+--stat is command for full statistics
