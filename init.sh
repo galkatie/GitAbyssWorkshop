@@ -8,8 +8,8 @@ cd SubmodulesBundle
 mkdir AbyssWorkshopOrigins
 cd AbyssWorkshopOrigins
 
-git clone --branch submodules https://github.com/galkatie/GitAbyssWorkshop.git GitAbyss
-git clone https://github.com/rkstonex/GitAbyssWorkshop.git PartnerRepo
+git clone --bare --branch submodules https://github.com/galkatie/GitAbyssWorkshop.git GitAbyss
+git clone --bare https://github.com/rkstonex/GitAbyssWorkshop.git PartnerRepo
 
 cd ..
 

@@ -25,4 +25,5 @@ read -n 1 -s
 git add -A
 git commit -m "Add submodule"
 git push
+
 echo "Publishing newly added submodule is very intuitive."
