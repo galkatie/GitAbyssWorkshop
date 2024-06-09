@@ -4,14 +4,16 @@ if [ "$(basename $(pwd))" != "coworker" ]; then
     exit 1
 fi
 
+echo "git pull"
 git pull
 ./echo "Getting the removal. What is status of repo?"
 
 #read -n 1 -s
-
-git status --ignore-submodules=none
+echo "git status"
+git status
 
 #read -n 1 -s
 
 ./echo "Removing the unnecesary files."
-rm  plugins/partner
+echo "rm -rf  plugins/partner"
+rm -rf  plugins/partner

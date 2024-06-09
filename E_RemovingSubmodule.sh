@@ -6,11 +6,13 @@ fi
 
 
 ./echo "Removing the submodule."
+echo "git rm plugins/partner"
 git rm plugins/partner 
 
-#read -n 1 -s
+read -n 1 -s
 
 ./echo "Committing the removal."
+echo "git add -A\ngit commit -m \"Remove submodule\"\ngit push"
 git add –A
-git commit
+git commit -m "Remove submodule"
 git push
