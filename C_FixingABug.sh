@@ -21,19 +21,25 @@ git status
 read -n 1 -s
 
 ../../echo "Committing the fix in submodule."
-echo "git add -A\ngit commit -m \"Fixing the bug in submodule\"\ngit push"
+echo "git add -A"
 git add -A
+echo "git commit -m \"Fixing the bug in submodule\""
 git commit -m "Fixing the bug in submodule"
+echo "git push"
 git push
 
 read -n 1 -s
 
-./echo "Committing the fix in main."
+../../echo "Committing the fix in main."
 echo "cd ../.."
-cd ../..
-echo "git add -A\ngit commit -am \"Updating submodule to fixed commit\"\ngit push"
+
+echo "git add -A"
 git add -A
+
+echo "git commit -m \"Updating submodule to fixed commit\""
 git commit -m "Updating submodule to fixed commit"
+
+echo "git push"
 git push
 
 

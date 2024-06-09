@@ -12,7 +12,9 @@ git rm plugins/partner
 read -n 1 -s
 
 ./echo "Committing the removal."
-echo "git add -A\ngit commit -m \"Remove submodule\"\ngit push"
+echo "git add -A"
 git add –A
+echo "git commit -m \"Remove submodule\""
 git commit -m "Remove submodule"
+echo "git push"
 git push

@@ -6,19 +6,21 @@ fi
 
 echo "git pull"
 git pull
+
+read -n 1 -s
+
 echo "git submodule update"
+./echo "Alternative is: git pull --recurse-submodules"
 git submodule update
 ./echo "Getting the fix. What is content of the remote.css file?"
 
 read -n 1 -s
 
-echo "git pull --recurse-submodules"
-git pull --recurse-submodules     
-./echo "Trying once again to get the fix. What is content of the remote.css file now?"
-read -n 1 -s
-
 echo "cd plugins/partner"
 cd plugins/partner
+echo "git show --pretty=oneline --no-patch -2"
+git show --pretty=oneline --no-patch -2
+../../echo "Checking the status of the submodule. Do you see something different?"
+
 echo "git status"
 git status
-../../echo "Checking the status of the submodule. Do you see something different?"

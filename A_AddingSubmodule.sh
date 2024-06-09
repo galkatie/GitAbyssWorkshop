@@ -26,7 +26,12 @@ git status
 read -n 1 -s
 
 ./echo "Publishing newly added submodule is very intuitive."
-echo "git add -A\ngit commit -m \"Add submodule\"\ngit push"
+
+echo "git add -A"
 git add -A
+
+echo "git commit -m \"Add submodule\""
 git commit -m "Add submodule"
+
+echo "git push"
 git push
