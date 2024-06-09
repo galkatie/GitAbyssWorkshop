@@ -5,13 +5,13 @@ if [ "$(basename $(pwd))" != "me" ]; then
 fi
 
 ./echo "Fixing the bug"
-./echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
+echo ".$(cat plugins/partner/remote.css)" > plugins/partner/remote.css
 git status
 #read -n 1 -s
 
 ./echo "Entering the submodule directory."
 cd plugins/partner
-git ststus
+git status
 
 #read -n 1 -s
 
