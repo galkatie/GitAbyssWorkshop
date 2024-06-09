@@ -4,7 +4,7 @@ if [ "$(basename $(pwd))" != "me" ]; then
     exit 1
 fi
 
-git submodule add ../AbyssWorkshopOrigins/PartnerRepo plugins/partner
+git submodule add ../../AbyssWorkshopOrigins/PartnerRepo ./plugins/partner
 echo "Check the state of ./plugins/partner/. Does it contain partner files?"
 
 read -n 1 -s
@@ -15,7 +15,9 @@ echo "What has changed? What is the status of the submodule?"
 
 read -n 1 -s
 
-git status --ignore-submodules=none
+git config --global status.submoduleSummary true
+git status
+
 echo "What is the status of the submodule now?"
 
 read -n 1 -s
