@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file_path="../../GitBisect/Page.html"
+file_path="./GitBisect/Page.html"
 search_value="Secction"
 
 # Use grep to search for the value in the file

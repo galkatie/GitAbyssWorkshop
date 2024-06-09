@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const filePath = '../../GitBisect/Page.html'; // This will depend where you will run script
+const filePath = './GitBisect/Page.html';
 const searchString = 'Secction';
 
 function checkFileContainsString(file, searchString) {

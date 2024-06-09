@@ -1,5 +1,6 @@
 # Answer: 4cfa3b0dc2ac504ced53a3d1c8b7b5f91f0098fb 
 
+# copy example script to repo root folder
 # overall rule
 git bisect start
 git bisect bad  # Mark the current commit as bad if it has the bug

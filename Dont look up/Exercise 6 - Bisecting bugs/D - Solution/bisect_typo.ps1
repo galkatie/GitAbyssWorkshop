@@ -1,4 +1,4 @@
-$htmlFilePath = "..\..\GitBisect\Page.html"
+$htmlFilePath = ".\GitBisect\Page.html"
 
 $specificValue = "Secction"
 
