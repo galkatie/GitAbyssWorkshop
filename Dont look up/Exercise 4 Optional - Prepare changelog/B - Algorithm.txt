@@ -1,0 +1,6 @@
+Step by step
+ 
+1. Use git log or git show
+2. Choose 2 commits
+3. Use double dot range operator for example commit..commit
+4. Specify custom format 

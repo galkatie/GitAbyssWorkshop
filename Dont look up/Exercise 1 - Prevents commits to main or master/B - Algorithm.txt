@@ -1,0 +1,6 @@
+Prevents commits to main or master
+
+1. Create empty file pre-commit 
+2. Read branch name to variable. 
+3. When branch name is master or main print warning message and exit with 1
+4. Move it to .git/hooks

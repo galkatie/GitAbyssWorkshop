@@ -1,0 +1,6 @@
+Display information about chosen range of commits to prepare changelog for release purposes.
+Format details 
+	short commit hash - in chosen color
+	date without hour
+	author name
+	subject

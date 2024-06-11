@@ -1,0 +1,8 @@
+To call a shell script:
+	git bisect run file_path
+	
+To call powershell script:
+	git bisect run powershell -File "file_path"
+	
+To call javascript file:
+	git bisect run node -File "file_path"

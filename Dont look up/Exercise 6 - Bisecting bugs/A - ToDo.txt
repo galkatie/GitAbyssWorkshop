@@ -1,0 +1,2 @@
+Which commit introduced typo in Section 4?
+Write a script to test it and try to use it with bisect.

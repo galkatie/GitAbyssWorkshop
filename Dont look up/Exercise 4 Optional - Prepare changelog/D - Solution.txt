@@ -1,0 +1,3 @@
+git log first-commit..ba60590 --format="%C(brightred)%h%Creset %as %an %s"
+
+git show first-commit..ba60590 --format="%C(brightred)%h%Creset %as %an %s" --no-patch
