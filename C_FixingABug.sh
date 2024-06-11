@@ -32,6 +32,7 @@ read -n 1 -s
 
 ../../echo "Committing the fix in main."
 echo "cd ../.."
+cd ../..
 
 echo "git add -A"
 git add -A
