@@ -1,4 +1,5 @@
 #!/bin/sh
+# Name this as prepare-commit-msg  and copy to .git/hooks folder
 
 branch_name=$(git symbolic-ref --short HEAD)
 COMMIT_MSG_FILE_PATH="$1"

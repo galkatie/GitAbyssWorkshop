@@ -1,5 +1,5 @@
 #!/bin/sh
-# Name as pre-commit
+# Name this as pre-commit and copy to .git/hooks folder
 
 # Get the name of the current branch
 BRANCH_NAME=$(git symbolic-ref --short HEAD)
