@@ -1,6 +1,6 @@
 Checkout to branch ‘workshop-test-cases’. 
 
-Starting from HEAD and using only revision selection commands find commit named ‘Page file rename’ and display it
+Starting from 17ad2db and using only revision selection commands find commit named ‘Add bisect code of conduct’ and display it
 
 Format details 
 	short commit hash - in chosen color

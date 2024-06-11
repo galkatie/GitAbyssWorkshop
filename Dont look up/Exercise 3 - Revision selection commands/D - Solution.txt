@@ -2,4 +2,8 @@ git checkout workshop-test-cases
 
 git log --oneline --decorate --graph
 
-git show HEAD^2^2~3 --format="%C(brightred)%h %C(italic blue)%as %C(reset magenta bold)%ae%Creset %s" --stat
+git show 17ad2db~3^2~9^2~2 --format="%C(brightred)%h %C(italic blue)%as %C(reset magenta bold)%ae%Creset %s" --stat
+
+#second option:
+
+git show 17ad2db~3^2~8^^2~2 --format="%C(brightred)%h %C(italic blue)%as %C(reset magenta bold)%ae%Creset %s" --stat
