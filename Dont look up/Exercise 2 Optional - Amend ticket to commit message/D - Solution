@@ -1,0 +1,16 @@
+#!/bin/sh
+# Name this as prepare-commit-msg  and copy to .git/hooks folder
+
+branch_name=$(git symbolic-ref --short HEAD)
+COMMIT_MSG_FILE_PATH="$1"
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE_PATH")
+pattern='[a-zA-Z]\{4}-[0-9]\{5}'
+
+taskNo=$(echo $branch_name | grep -oE $pattern)
+
+if [ -n "$taskNo" ]; then
+  echo "[$taskNo] $COMMIT_MSG" > $COMMIT_MSG_FILE_PATH
+  else
+    echo "No number [XXXX-DDDDD] in branch: $branch_name"
+    exit 1
+fi

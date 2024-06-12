@@ -1,0 +1,6 @@
+Use of revision selection 
+ 
+
+1. Checkout to branch `workshop-test-cases`
+2. Display tree for visualsation 
+3. Display using git show with applying display data
